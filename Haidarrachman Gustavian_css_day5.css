@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    color: rgb(11, 97, 100);
+    width: 100vw;
+    position: fixed;
+    text-align: center;
+}
+
+header h1 {
+    font-family: Georgia, serif;
+    font-size: 30px;
+    letter-spacing: 0.5em;
+    word-spacing: 1.2px;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+.container {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    padding: 30px 10px;
+    width: 300px;
+    height: 350px;
+    box-shadow: 0px 4px 13px 0px rgba(21, 210, 235, 0.33);
+    background-color: rgb(14, 19, 20);
+    margin: 1rem;
+    border-radius: 25px;
+    
+}
+
+.card img {
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.card p::first-line{
+   color: rgb(226, 43, 43);
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    padding: 30px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(25, 66, 100);
+    font-weight: bold;
+}
+
+
+.storageContainer {
+    width: 250px;
+    height: 500px;
+    margin: 50px;
+    background-color: rgb(231, 142, 24);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.storageContainer h3{
+    background-color: rgb(68, 43, 15);
+    position: sticky;
+    text-align: center;
+    margin-bottom: 30px;
+    top: 0;
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.storageContainer ul li {
+    margin-left: 7px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+h2 {
+    background-color: rgb(38, 0, 255);
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+p {
+    color: brown;
+    letter-spacing: 0.5em;
+    word-spacing: 1.2px;
+    font-weight: normal;
+    text-decoration: antiquewhite;
+    font-style: normal;
+    font-variant: initial;
+    text-transform: none;
+}
