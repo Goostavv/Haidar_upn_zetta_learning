@@ -1,17 +1,27 @@
-Report
-1. Angular merupakan sebuah framework yang umumnya digunakan untuk membuat SPA (single page application) SPA disini maksudnya adalah pemrosesan dalam suatu website hanya terjadi di 1 laman tersebut, beberapa contoh implementasi SPA adalah facebook, google maps, google drive, twitter, dll. Angular merupakan framework berbasis 1 bahasa, yaitu typescript. Angular juga dapat dibuat web dinamis yang mana angular akan melakukan STTP request ke BE server. Code dari angular reusable karena angular berbasis komponen.
+# MyApp
 
-Modules: merupakan sebuah container yang menyimpan beberapa komponen yang akan digunakan lalu import di module.ts dan nantinya akan disusun menjadi satu applikasi yang disajikan didalam main.ts untuk melakukan bootstraping ke platform browser yang digunakan
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.7.
 
-Component : Merupakan suatu kumpulan code yang memiliki fungsi nya sendiri sendiri, komponen dapat berupa html (view), ts (controler dan model)
+## Development server
 
-Module akan mengimpelementasikan / mengimport properti pada suatu komponen yang nantinya akan digunakan pada view (html)
-QUIZ
-1. dibagi menjadi beberapa komponen yaitu :
-    - Sidebar
-    - Header
-    - Card
-2. Komponen dapat dikelompokkan menjadi satu modul sesuai dengan fungsinya, contohnya pada bagian header terdapat komponen search, notifikasi, profile dapat di bagi menjadi satu modul header.
-3. dia akan memiliki 3 module tambahan yaitu sidebar, header, dan card.
-    component yang terdapat didalam modul dapat dilihat di nomor 2
-    yang mana telah memisahkan tiap component pada module
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
