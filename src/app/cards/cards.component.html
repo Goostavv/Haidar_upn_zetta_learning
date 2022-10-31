@@ -1,0 +1,20 @@
+<p>cards works!</p>
+<div *ngFor="let card of cardTitle; let indexOfElement=index;">
+    <div class="card" style="width: 18rem">
+      <img src="{{ card.img }}" class="card-img-top" alt="{{ card.name }}" />
+      <div class="card-body">
+        <h5 class="card-title">{{ card.name }}</h5>
+        <div class="row">
+          <div class="col">
+            <p class="card-text">Price : {{ card.price }}</p>
+          </div>
+          <div class="col">
+            <button type="button" class="btn btn-primary float-end" (click)="showDetail(indexOfElement)">
+              Detail
+            </button>
+          </div>
+        </div>
+        <p *ngIf="buttonDetail[indexOfElement]">{{card.details}}</p>
+      </div>
+    </div>
+  </div>
