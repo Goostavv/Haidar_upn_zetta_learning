@@ -5,18 +5,10 @@ import { HttpClientModule } from '@angular/common/http'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ArtifactsComponent } from './artifacts/artifacts.component';
-import { ModulesComponent } from './modules/modules.component';
-import { Artifacts3Component } from './artifacts3/artifacts3.component';
-import { Artifacts4Component } from './artifacts4/artifacts4.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    ArtifactsComponent,
-    ModulesComponent,
-    Artifacts3Component,
-    Artifacts4Component
+    AppComponent
   ],
   imports: [
     BrowserModule,
