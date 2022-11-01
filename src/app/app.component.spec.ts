@@ -1,9 +1,7 @@
 import { TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
-import { MembersComponent } from './members.components';
 import { NO_ERRORS_SCHEMA } from "@angular/core";
-import { ListComponent } from './member-list.component';
 
 describe('AppComponent', () => {
   beforeEach(async () => {
@@ -12,7 +10,7 @@ describe('AppComponent', () => {
         RouterTestingModule
       ],
       declarations: [
-        AppComponent,MembersComponent,ListComponent
+        AppComponent
       ],
       schemas: [
         NO_ERRORS_SCHEMA
