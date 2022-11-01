@@ -7,6 +7,7 @@ import { Component,NgModule, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit{
   title = 'angular_learning';
+  show = true;
   constructor () {}
   ngOnInit(): void {
     
