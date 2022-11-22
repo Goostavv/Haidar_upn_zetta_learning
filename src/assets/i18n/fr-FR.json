@@ -1,0 +1,22 @@
+{
+    "addUser" :{
+        "choose_language": "Choisissez la langue",
+        "email": "Email",
+        "email_error": "L'e-mail est requis",
+        "email_notvalid": "S'il vous plaît, mettez une adresse email valide",
+        "civility": "Civilité",
+        "first_name": "Prénom",
+        "last_name": "Nom de famille",
+        "first_name_error": "Le prénom est requis",
+        "last_name_error": "Le nom de famille est requis",
+        "date_of_birth": "Date de naissance",
+        "gender":"Le sexe",
+        "company":{
+            "name":"Nom de l'entreprise",
+            "name_error": "Nom de l'entreprise est requis",
+            "user_type":"Type d'utilisateur"
+        },
+        "status": "Statut",
+        "add_user": "Ajouter un utilisateur"
+    }
+}
